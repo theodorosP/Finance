@@ -1,0 +1,51 @@
+bb+mfi
+1)if bolinger bands are narrow and they start to expand look the mfi. If it goes above 50 it is bulish signal. Else it is bearish signal
+2)If the new value is a big green candle on the upper bolinger band it is more than likely a bulish signal. Else if it is a big red line on the down bolinger and it is a bearish signal
+
+bb+rsi
+1)price < bottom bb and rsi <25 ->> buy wait for a green candle to form before buying
+2)price > upper bb and rsi > 75 sell, wait for a red candle to form before selling
+
+stochastik
+buy
+    The %K line is below 20
+    The %D line is below 20
+    The %K line is below %D line
+    
+sell
+    The %K line is above 80
+    The %D line is above 80
+    The %K line is above %D line
+
+stochastic
+D bellow K buy (works for me)
+
+MACD
+a bullish crossover happens when the MACD crosses above the signal line 
+and a bearish crossover happens when the MACD crosses below the signal line.
+
+ADX
+bellow 25, market is not raging
+
+above 25: if -DI above +DI start bearish trend
+above 25: if -DI bellow +DI start bbulish trend
+
+
+SMA
+when SMA-10 above SMA-20, buy
+when SMA-20 above SMA-10, sell
+SMA: not working in ranging markets
+
+
+EMA
+ema12 > ema26 buy
+ema12 < ema26 sell
+ema: not working in ranging markets
+
+breakout strategy
+buy whenever the market surpasses the middle band.
+Sell (go short) whenever the market breaks the middle band.
+
+new normalizer
+when the 4-period Normalized Index is at 100, it means that the current close of the market price is the highest during the last 4 periods.
+when the 4-period Normalized Index is at 0, it means that the current close of the market price is the lowest during the last 4 periods.

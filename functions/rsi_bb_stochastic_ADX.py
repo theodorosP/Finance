@@ -107,7 +107,7 @@ def get_bb_rsi_stochastic_ADX_(name):
     ax2.axhline(50, linestyle = "--", color = "black")
     ax2.axhline(25, linestyle = "--", color = "red")
     ax2.axhline(75, linestyle = "--", color = "red")
-    candlestick_ohlc(ax3,df.values,width=0.6, colorup='green', colordown='red', alpha=0.8) 
+    #candlestick_ohlc(ax3,df.values,width=0.6, colorup='green', colordown='red', alpha=0.8) 
     ax3.plot(df["adx"], linestyle = "-", color = "blue", label = "ADX")
     ax3.plot(df["plus_di"], linestyle = "-", color = "green", label = "+DI")
     ax3.plot(df["minus_di"], linestyle = "-", color = "red", label = "-DI")
@@ -125,7 +125,7 @@ def get_bb_rsi_stochastic_ADX_(name):
     plt.savefig("rsi_bb_stochastic_" + str(name) + ".png")
 
 
-l = [ "BTC-USD", "BCH-USD", "BSV-USD", "DOGE-USD", "ETH-USD", "ETC-USD", "LTC-USD"]
+l = [ "BTC-USD", "BCH-USD", "BSV-USD", "DOGE-USD", "ETH-USD", "ETC-USD", "LTC-USD", "SHIB-USD", "MATIC-USD", "SOL-USD"]
 for i in l:
     get_bb_rsi_stochastic_ADX_(i)
     

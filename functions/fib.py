@@ -83,6 +83,6 @@ def fib(name):
     plt.savefig("fibb_"+str(name) + ".png")
 
 
-l = [ "BTC-USD", "BCH-USD", "BSV-USD", "DOGE-USD", "ETH-USD", "ETC-USD", "LTC-USD"]
+l = [ "BTC-USD", "BCH-USD", "BSV-USD", "DOGE-USD", "ETH-USD", "ETC-USD", "LTC-USD", "SHIB-USD", "MATIC-USD", "SOL-USD"]
 for i in l:
     fib(i)

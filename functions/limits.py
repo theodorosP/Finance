@@ -52,6 +52,6 @@ def get_limit(name):
     plt.savefig("limits_" + str(name) + ".png")
 
 
-l = [ "BTC-USD", "BCH-USD", "BSV-USD", "DOGE-USD", "ETH-USD", "ETC-USD", "LTC-USD"]
+l = [ "BTC-USD", "BCH-USD", "BSV-USD", "DOGE-USD", "ETH-USD", "ETC-USD", "LTC-USD", "SHIB-USD", "MATIC-USD", "SOL-USD"]
 for i in l:
     get_limit(i)
